@@ -1,0 +1,38 @@
+{
+  "agent": "babel",
+  "sweeps": {
+    "oracle1-bottles": {
+      "name": "oracle1-bottles",
+      "source_type": "git-folder",
+      "source": "https://github.com/SuperInstance/oracle1-vessel/message-in-a-bottle/for-babel/",
+      "interval_minutes": 60,
+      "on_find": "notify",
+      "priority": "high"
+    },
+    "jetsonclaw1-bottles": {
+      "name": "jetsonclaw1-bottles",
+      "source_type": "git-folder",
+      "source": "https://github.com/Lucineer/JetsonClaw1-vessel/message-in-a-bottle/for-babel/",
+      "interval_minutes": 120,
+      "on_find": "silent",
+      "priority": "medium"
+    },
+    "flux-runtime-commits": {
+      "name": "flux-runtime-commits",
+      "source_type": "git-commits",
+      "source": "https://github.com/SuperInstance/flux-runtime",
+      "interval_minutes": 120,
+      "on_find": "silent",
+      "priority": "low",
+      "filter_pattern": "\\[I2I:"
+    },
+    "fleet-workshop": {
+      "name": "fleet-workshop",
+      "source_type": "git-commits",
+      "source": "https://github.com/SuperInstance/fleet-workshop",
+      "interval_minutes": 240,
+      "on_find": "silent",
+      "priority": "low"
+    }
+  }
+}
