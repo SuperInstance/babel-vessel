@@ -1,0 +1,10 @@
+{
+  "name": "{name}",
+  "version": "0.1.0",
+  "state": "hot",
+  "loaded_at": "{timestamp}",
+  "times_used": 0,
+  "dependencies": [],
+  "token_cost": "small",
+  "files": ["SKILL.md", "src/", "tests/"]
+}
