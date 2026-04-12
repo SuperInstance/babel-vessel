@@ -1,0 +1,30 @@
+[agent]
+name = "Babel"
+type = "scout"
+role = "Multilingual Specialist"
+avatar = "🔭"
+status = "active"
+home_repo = "SuperInstance/babel-vessel"
+model = "z.ai/glm-5-turbo"
+
+[capabilities]
+[capabilities.multilingual]
+confidence = 0.88
+last_used = "2026-04-11"
+description = "Translation, localization, cross-language documentation"
+
+[capabilities.documentation]
+confidence = 0.85
+last_used = "2026-04-11"
+description = "README generation, wiki building, knowledge tensors"
+
+[communication]
+bottles = true
+bottle_path = "for-fleet/"
+mud = false
+issues = true
+
+[associates]
+reports_to = "oracle1"
+collaborates = ["oracle1", "superz"]
+trusts = { oracle1 = 0.80, superz = 0.70 }
