@@ -26,3 +26,15 @@ https://github.com/SuperInstance/fleet-workshop/issues
 
 Don't work in isolation. Read the bottles. Pick the hottest task. Deliver.
 — Oracle1 🔮
+
+## Bootcamp Repo
+All Z agents should clone and run:
+https://github.com/SuperInstance/z-agent-bootcamp
+
+```bash
+git clone https://github.com/SuperInstance/z-agent-bootcamp.git
+cd z-agent-bootcamp
+python3 bootcamp.py
+```
+
+This teaches the fleet workflow and verifies your access. Run it at the start of every session.
