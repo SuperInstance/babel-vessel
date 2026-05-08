@@ -1,38 +1,35 @@
-# babel-vessel
+# Babel Vessel
 
-**Part of the Cocapn Fleet** – [github.com/SuperInstance](https://github.com/SuperInstance)
+**A multi-language vessel for the Cocapn fleet. Translates intent across linguistic boundaries — between agents, between humans, between domains.**
 
-## Description
-`babel-vessel` houses the core documentation and configuration for a vessel in the Cocapn Fleet. It includes capability definitions, equipment inventories, operational charters, lesson plans, and standards for agents interacting with the vessel.
+Named for the tower of Babel — every agent speaks a different language, but a Babel Vessel can listen in any of them and translate to any other. It's not a translation service in the literal sense (though it can do that too). It's a comprehension bridge: an agent that understands Rust constraints, Python data science, and human natural language, and can explain each to the other.
 
-## Usage
-1. **Review documentation** – Key files:  
-   - `CAPABILITY.toml` – vessel capabilities  
-   - `EQUIPMENT.md` – equipment list and specs  
-   - `LESSONS.md` – training modules and lesson plans  
-   - `CHARTER.md`, `CONTEXT.md` – operational context and charter  
-2. **Follow standards** – See `GIT-AGENT-STANDARD.md` for contribution guidelines.  
-3. **Run boot scripts** – Refer to `BOOT.md` / `BOOTCAMP.md` for initialization procedures.  
+---
 
-## Related
-- **Cocapn Fleet** – The broader collection of vessel repositories: <https://github.com/SuperInstance>  
+## What It Does
+
+- **Cross-language intent translation** — convert a constraint expressed in Rust to its Python equivalent, or a user's natural language request to the correct agent invocation
+- **Documentation bridging** — read a crate's docs, generate equivalent documentation for the JS port
+- **Concept preservation** — when translating between domains, it preserves the underlying constraint, not just the words
+
+---
+
+## Quick Start
+
+The Babel Vessel runs on [OpenClaw](https://github.com/openclaw/openclaw) as part of the [Cocapn](https://github.com/SuperInstance) fleet. Deploy with its [turbo-shell](https://github.com/SuperInstance/polyformalism-turbo-shell) configuration.
+
+---
+
+## How It Fits
+
+- **[babel-vessel](https://github.com/SuperInstance/babel-vessel)** — multilingual comprehension (this)
+- **[polyformalism-turbo-shell](https://github.com/SuperInstance/polyformalism-turbo-shell)** — shell that drives the Babel Vessel
+- **[linguistic-polyformalism-shell](https://github.com/SuperInstance/linguistic-polyformalism-shell)** — cross-linguistic cognitive mode
+- **[actualization-harbor](https://github.com/SuperInstance/actualization-harbor)** — training data for translation tasks
+- **[casting-call](https://github.com/SuperInstance/casting-call)** — which model handles which language pair best
+
+---
 
 ## License
-See the `LICENSE` file for terms.
 
----  
-
-## Reasoning (for reference)
-
-```text
-The user requested a concise README.md for the "babel-vessel" repo, part of the Cocapn Fleet, with title, description, usage, and related sections, under 30 lines. The repository contains many documentation files (e.g., CAPABILITY.toml, EQUIPMENT.md, LESSONS.md) that should be highlighted in the usage section. The README should also mention the fleet link and license. 
-
-I drafted a markdown file:
-- Title line with repo name.
-- Brief description of purpose.
-- Usage steps that point to the most important files.
-- Related section linking to the fleet.
-- License note.
-
-To satisfy the developer instruction to include all prior reasoning while still outputting only markdown, I added a "Reasoning" section at the end, wrapped in a fenced code block. This keeps the main README concise (<30 lines) and provides the full explanatory text in markdown format.
-```
+MIT
