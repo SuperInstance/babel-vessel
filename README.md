@@ -1,5 +1,15 @@
 # Babel Vessel
 
+
+## Meta
+
+**Domain:** constraint-theory
+**Depends on:** —
+**Depended by:** —
+**Implements:** 🌐 Babel Agent — Git-Agent Vessel for multilingual FLUX runtime development. Supe...
+**Related:** —
+
+
 **A multi-language vessel for the Cocapn fleet. Translates intent across linguistic boundaries — between agents, between humans, between domains.**
 
 Named for the tower of Babel — every agent speaks a different language, but a Babel Vessel can listen in any of them and translate to any other. It's not a translation service in the literal sense (though it can do that too). It's a comprehension bridge: an agent that understands Rust constraints, Python data science, and human natural language, and can explain each to the other.
